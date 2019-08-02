@@ -1,0 +1,115 @@
+Script started on Sun Nov  6 19:04:09 2016
+[?1034hbash-3.2$ make categorizers
+gcc -Wall -std=c99 questions.c qtree.c categorizer.c -o categorizer
+bash-3.2$ ./categorizer testfile.txt
+----------------------------------------------
+Friend recommender system. Find people who are just like you!
+CSC209 fall 2016 team. All rights reserved
+----------------------------------------------
+Please enter your name. Type 'q' to quit
+haojingx
+Do you like Tattoos? (y/n)
+y
+Do you like Reality TV? (y/n)
+y
+Do you like Justin Bieber? (y/n)
+n
+Do you like Bill Gates? (y/n)
+y
+Do you like Hockey? (y/n)
+n
+Sorry, no users with similar interests joined yet
+
+----------------------------------------------
+Friend recommender system. Find people who are just like you!
+CSC209 fall 2016 team. All rights reserved
+----------------------------------------------
+Please enter your name. Type 'q' to quit
+jiangxinyan
+Do you like Tattoos? (y/n)
+y
+Do you like Reality TV? (y/n)
+y
+Do you like Justin Bieber? (y/n)
+n
+Do you like Bill Gates? (y/n)
+y
+Do you like Hockey? (y/n)
+n
+friend recommendations for user jiangxinyan:
+haojingx
+You have total 1 potential friend(s)!!!
+
+----------------------------------------------
+Friend recommender system. Find people who are just like you!
+CSC209 fall 2016 team. All rights reserved
+----------------------------------------------
+Please enter your name. Type 'q' to quit
+q
+Tattoos type:0
+	Reality TV type:0
+		Justin Bieber type:0
+			Bill Gates type:0
+				Hockey type:1
+					NULL
+					NULL
+				Hockey type:1
+					NULL
+					NULL
+			Bill Gates type:0
+				Hockey type:1
+					NULL
+					NULL
+				Hockey type:1
+					NULL
+					NULL
+		Justin Bieber type:0
+			Bill Gates type:0
+				Hockey type:1
+					NULL
+					NULL
+				Hockey type:1
+					NULL
+					NULL
+			Bill Gates type:0
+				Hockey type:1
+					NULL
+					NULL
+				Hockey type:1
+					NULL
+					NULL
+	Reality TV type:0
+		Justin Bieber type:0
+			Bill Gates type:0
+				Hockey type:1
+					NULL
+					NULL
+				Hockey type:1
+					NULL
+					NULL
+			Bill Gates type:0
+				Hockey type:1
+					NULL
+					NULL
+				Hockey type:1
+					NULL
+					NULL
+		Justin Bieber type:0
+			Bill Gates type:0
+				Hockey type:1
+					NULL
+					NULL
+				Hockey type:1
+					haojingx, jiangxinyan, 
+					NULL
+			Bill Gates type:0
+				Hockey type:1
+					NULL
+					NULL
+				Hockey type:1
+					NULL
+					NULL
+bash-3.2$ exit
+exit
+
+Script done on Sun Nov  6 19:04:52 2016

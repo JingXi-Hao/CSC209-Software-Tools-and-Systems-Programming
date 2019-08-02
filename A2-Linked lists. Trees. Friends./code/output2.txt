@@ -1,0 +1,95 @@
+Script started on Sun Nov  6 17:05:49 2016
+[?1034hbash-3.2$ make categorizers
+gcc -Wall -std=c99 questions.c qtree.c categorizer.c -o categorizer
+bash-3.2$ ./categorizer testfile.txt
+----------------------------------------------
+Friend recommender system. Find people who are just like you!
+CSC209 fall 2016 team. All rights reserved
+----------------------------------------------
+Please enter your name. Type 'q' to quit
+haoingxx
+Do you like Tattoos? (y/n)
+not really
+Invalid answer: the answer is longer than 3 characters.
+
+Do you like Tattoos? (y/n)
+ok
+Invalid answer: the answer does not start with 'q', or 'n', or 'y', or 'Q', or 'N', or 'Y'.
+
+Do you like Tattoos? (y/n)
+quitesure
+Invalid answer: the answer is longer than 3 characters.
+
+Do you like Tattoos? (y/n)
+yesmaybe
+Invalid answer: the answer is longer than 3 characters.
+
+Do you like Tattoos? (y/n)
+q
+Tattoos type:0
+	Reality TV type:0
+		Justin Bieber type:0
+			Bill Gates type:0
+				Hockey type:1
+					NULL
+					NULL
+				Hockey type:1
+					NULL
+					NULL
+			Bill Gates type:0
+				Hockey type:1
+					NULL
+					NULL
+				Hockey type:1
+					NULL
+					NULL
+		Justin Bieber type:0
+			Bill Gates type:0
+				Hockey type:1
+					NULL
+					NULL
+				Hockey type:1
+					NULL
+					NULL
+			Bill Gates type:0
+				Hockey type:1
+					NULL
+					NULL
+				Hockey type:1
+					NULL
+					NULL
+	Reality TV type:0
+		Justin Bieber type:0
+			Bill Gates type:0
+				Hockey type:1
+					NULL
+					NULL
+				Hockey type:1
+					NULL
+					NULL
+			Bill Gates type:0
+				Hockey type:1
+					NULL
+					NULL
+				Hockey type:1
+					NULL
+					NULL
+		Justin Bieber type:0
+			Bill Gates type:0
+				Hockey type:1
+					NULL
+					NULL
+				Hockey type:1
+					NULL
+					NULL
+			Bill Gates type:0
+				Hockey type:1
+					NULL
+					NULL
+				Hockey type:1
+					NULL
+					NULL
+bash-3.2$ exit
+exit
+
+Script done on Sun Nov  6 17:07:42 2016
